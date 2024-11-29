@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Tailwind Page</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+
+  <!-- Navbar -->
+  <header class="bg-white shadow-md">
+    <div class="container mx-auto flex items-center justify-between p-4">
+      <h1 class="text-lg font-bold text-purple-600">CompanyLogo</h1>
+      <nav class="hidden md:flex space-x-6 text-gray-600">
+        <a href="#" class="hover:text-purple-600">Features</a>
+        <a href="#" class="hover:text-purple-600">Testimonials</a>
+        <a href="#" class="hover:text-purple-600">Pricing</a>
+        <a href="#" class="hover:text-purple-600">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="bg-gradient-to-r from-purple-800 to-purple-500 text-white text-center py-20">
+    <div class="container mx-auto">
+      <h2 class="text-4xl font-bold mb-4">Transform Your Business</h2>
+      <p class="text-lg mb-6">Elevate your online presence with our cutting-edge solutions</p>
+      <a href="#" class="px-3 rounded-full py-2 bg-white text-purple-600 font-semibold rounded-md shadow-md hover:bg-gray-100">Get Started</a>
+    </div>
+  </section>
+
+  <!-- Why Choose Us -->
+  <section class="py-16">
+    <div class="container mx-auto text-center">
+      <h3 class="text-2xl font-semibold mb-8">Why Choose Us</h3>
+      <div class="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+        <div class="p-6 bg-white shadow rounded">
+          <div class="text-yellow-500 text-3xl mb-4">⚡</div>
+          <h4 class="font-bold text-lg mb-2">Lightning Fast</h4>
+          <p>Experience blazing fast performance with our optimized solutions.</p>
+        </div>
+        <div class="p-6 bg-white shadow rounded">
+          <div class="text-red-500 text-3xl mb-4 ml-4">🛡️</div>
+          <h4 class="font-bold text-lg mb-2">Secure</h4>
+          <p>Your data is protected with enterprise-grade security.</p>
+        </div>
+        <div class="p-6 bg-white shadow rounded">
+          <div class="text-blue-500 text-3xl mb-4">💎</div>
+          <h4 class="font-bold text-lg mb-2">Premium Quality</h4>
+          <p>Unmatched quality that sets us apart from the competition.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="bg-gray-50 py-16">
+    <div class="container mx-auto text-center">
+      <h3 class="text-2xl font-semibold mb-8">What Our Clients Say</h3>
+      <div class="grid gap-8 sm:grid-cols-2">
+        <div class="p-6 bg-white shadow rounded">
+          <p>"The best decision we made for our business. The results have been incredible."</p>
+         <div class="w-6 h-6 rounded-full">  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Elon_Musk_Royal_Society_crop.jpg/800px-Elon_Musk_Royal_Society_crop.jpg" alt="">
+         </div>
+          <h4 class="font-bold mt-4">John Smith</h4>
+          <span class="text-gray-500">CEO, TechCorp</span>
+        </div>
+        <div class="p-6 bg-white shadow rounded">
+          <p>"Outstanding service and support. They truly understand our needs."</p>
+          <div class="w-6 h-6 rounded-full">  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Elon_Musk_Royal_Society_crop.jpg/800px-Elon_Musk_Royal_Society_crop.jpg" alt="">
+          </div>
+          <h4 class="font-bold mt-4">Sarah Johnson</h4>
+          <span class="text-gray-500">Founder, Design Studio</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing -->
+  <section class="py-16">
+    <div class="container mx-auto text-center">
+      <h3 class="text-2xl font-semibold mb-8">Simple, Transparent Pricing</h3>
+      <div class="grid gap-8 md:grid-cols-3">
+        <div class="p-6 bg-white shadow rounded">
+          <h4 class="font-bold text-lg mb-2">Starter</h4>
+          <p class="text-2xl font-bold">$29<span class="text-base font-normal">/mo</span></p>
+          <ul class="text-gray-500 my-4">
+            <li>✔ Basic Features</li>
+            <li>✔ 5 Projects</li>
+            <li>✔ Basic Support</li>
+          </ul>
+          <a href="#" class="px-4 py-2 bg-blue-600 text-white rounded shadow hover:bg-purple-700">Get Started</a>
+        </div>
+        <div class="p-6 bg-white shadow rounded border-solid border-2 border-blue-500 ">
+          <h4 class="font-bold text-lg mb-2">Professional</h4>
+          <p class="text-2xl font-bold">$99<span class="text-base font-normal">/mo</span></p>
+          <ul class="text-gray-500 my-4">
+            <li>✔ Advanced Features</li>
+            <li>✔ Unlimited Projects</li>
+            <li>✔ Priority Support</li>
+          </ul>
+          <a href="#" class="px-4 py-2 bg-blue-600 text-white rounded shadow hover:bg-purple-700">Get Started</a>
+        </div>
+        <div class="p-6 bg-white shadow rounded">
+          <h4 class="font-bold text-lg mb-2">Enterprise</h4>
+          <p class="text-2xl font-bold">$299<span class="text-base font-normal">/mo</span></p>
+          <ul class="text-gray-500 my-4">
+            <li>✔ Custom Features</li>
+            <li>✔ Dedicated Support</li>
+            <li>✔ SLA Agreement</li>
+          </ul>
+          <a href="#" class="px-4 py-2 bg-blue-600 text-white rounded shadow hover:bg-purple-700">Contact Sales</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Form -->
+  <section class="py-16 bg-gray-50">
+    <div class="container mx-auto text-center">
+      <h3 class="text-2xl font-semibold mb-8">Get in Touch</h3>
+      <form class="max-w-xl mx-auto space-y-4">
+        <input type="text" placeholder="Name" class="w-full px-4 py-2 border rounded">
+        <input type="email" placeholder="Email" class="w-full px-4 py-2 border rounded">
+        <textarea placeholder="Message" class="w-full px-4 py-2 border rounded"></textarea>
+        <button type="submit" class="px-6 py-3 bg-blue-600 text-white font-semibold rounded shadow hover:bg-purple-700">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-gray-400 py-6">
+    <div class="container mx-auto flex flex-col md:flex-row justify-between text-center md:text-left">
+      <div>
+        <h4 class="font-bold text-white">CompanyLogo</h4>
+        <p>Transform your business with our cutting-edge solutions.</p>
+      </div>
+      <div>
+        <h4 class="font-bold text-white">Quick Links</h4>
+        <ul>
+          <li><a href="#" class="hover:text-white">Features</a></li>
+          <li><a href="#" class="hover:text-white">Testimonials</a></li>
+          <li><a href="#" class="hover:text-white">Pricing</a></li>
+          <li><a href="#" class="hover:text-white">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="font-bold text-white">Connect</h4>
+        <ul>
+          <li><a href="#" class="hover:text-white">Twitter</a></li>
+          <li><a href="#" class="hover:text-white">LinkedIn</a></li>
+          <li><a href="#" class="hover:text-white">Facebook</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="text-center mt-4">
+      &copy; 2024 CompanyLogo. All rights reserved.
+    </div>
+  </footer>
+
+</body>
+</html>
